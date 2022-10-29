@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TACOSPACE</title>
+</head>
+
+<body>
+    <header>TACOSPACE, desde 2022</header>
+    <img src="0001.png" alt="logo" />
+
+    <section>
+        <h2>menú</h2>
+        <h3>tacos</h3>
+        <p>(todos incluyen chiles,cebolla,y salsa)</p>
+        <ul>
+            <li>bisteck................$15</li>
+            <li>pastor.................$15</li>
+            <li>chorizo................$15</li>
+            <li>machitos...............$15</li>
+        </ul>
+
+        <h3>especialidades</h3>
+        <dl>
+            <dt>taco de arrachera:</dt>
+            <dd>incluye fajitas de arrachera nopales chiles y salsa</dd>
+            <dt>volcanes:</dt>
+            <dd>tostada con carne y queso</dd>
+        </dl>
+
+        <h3>bebidas</h3>
+        <ul>
+            <li>coca...................$25</li>
+            <li>sprite.................$25</li>
+            <li>fanta..................$25</li>
+            <li>freska.................$25</li>
+            <li>agua de horchata.......$25</li>
+            <li>agua de limon..........$20</li>
+            <li>agua de piña...........$20</li>
+        </ul>
+
+        <table>
+            <th>Sucursal</th>
+            <th>Ubicacion</th>
+            <th>Horarios</th>
+            <th>telefono</th>
+
+            <tr>
+                <td>lomas</td>
+                <td>
+                    <a href="https://g.page/TaqueriaSelene?share" target="_blank">click aqui</a>
+                </td>
+                <td>6pm-2am</td>
+                <td>5520584698</td>
+            </tr>
+
+            <tr></tr>
+
+            <tr>
+                <td>andares</td>
+                <td>
+                    <a href="https://goo.gl/maps/z1VpkmY4WU2U2mcEA" target="_blank">click aqui</a>
+                </td>
+                <td>6pm-2am</td>
+                <td>5519759542</td>
+            </tr>
+
+            <tr>
+                <td>abastos</td>
+                <td>
+                    <a href="https://goo.gl/maps/WJUvxgZ2j1nSN51t9" target="_blank">click aqui</a>
+                </td>
+                <td>6pm-2am</td>
+                <td>5535369658</td>
+            </tr>
+        </table>
+    </section>
+    <hr />
+    <section id="pedidos">
+        <form action="#" method="post">
+            <h2>pedidos</h2>
+            <h3>haz tu pedido aqui</h3>
+
+            <label for="nombre">Nombre de quien recibira el pedido: </label>
+            <input type="text" name="" id="nombre" />
+            <br />
+            <br />
+            <label for="direccion">ingresa tu direccion:</label>
+            <input type="text" name="" id="direccion" />
+            <br />
+            <br />
+            <label for="telefono">ingresa un numero de telefono:</label>
+            <input type="tel" maxlength="10" name="" id="telefono" />
+            <br />
+            <br />
+            <label for="sucursal">Selecciona tu sucursal mas cercana&nbsp;&nbsp;</label>
+            <select name="" id="sucursal">
+                <option value="lomas">lomas</option>
+                <option value="andares">andares</option>
+                <option value="abastos">abastos</option>
+            </select>
+
+            <p>selecciona el numero de tacos que deseas</p>
+            <label for="bisteck">bisteck</label>
+            <input type="number" name="" id="bisteck" /><br>
+            <label for="pastor">pastor</label>
+            <input type="number" name="" id="pastor" /><br>
+            <label for="chorizo">chorizo</label>
+            <input type="number" name="" id="chorizo" /><br>
+            <label for="machitos">machitos</label>
+            <input type="number" name="" id="machitos" /><br>
+
+            <p>selecciona el numero de especialidades que deseas?</p>
+            <label for="arrachera">taco de arrachera</label>
+            <input type="number" name="" id="arrachera" /><br>
+            <label for="volcan">volcan</label>
+            <input type="number" name="" id="volcan" />
+
+            <p>que bebida quieres?</p>
+            <label for="coca">coca</label>
+            <input type="number" name="" id="coca" /><br>
+            <label for="sprite">sprite</label>
+            <input type="number" name="" id="sprite" /><br>
+            <label for="fanta">fanta</label>
+            <input type="number" name="" id="fanta" /><br>
+            <label for="freska">freska</label>
+            <input type="number" name="" id="freska" />
+            <br />
+            <br />
+            <button type="submit">enviar</button>
+        </form>
+    </section>
+</body>
+
+</html>
