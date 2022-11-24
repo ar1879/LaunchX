@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pokedex.css">
+</head>
+
+<body class="bgpokedex">
+    <div class="pokedex">
+        <div class="pokedex1">
+            <div class="frame">
+                <div class="inline">
+                    <div class="circle"></div>
+                    <div class="circle1"></div>
+                </div>
+            <div class="inline">
+                <div class="bigcircle">
+                </div>
+                <div class="pokePhoto">
+                    <img src="multimedia/pokeball_10000_mah_01_l.jpg" alt="pokemon" id="pokeImg" width="150px" class="image">
+                </div>
+            </div>
+            </div>
+            <!-- < class="pokeInfo" > -->
+            
+            <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+            <button class="btn" onclick="fetchPokemon()" >Buscar pokemon</button>
+        </div>
+    </div>
+
+    <!-- rigth -->
+    <div class="pokedex">
+        <div class="pokedex1">
+            
+            <!-- < class="pokeInfo" > -->
+            <div class="pokeScreen" id="abilities">
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <script src="pokedex.js"></script>
+    </footer>
+</body>
+
+</html>
